@@ -1,0 +1,69 @@
+.Section6 {
+    background: #031b4e url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+
+    .header {
+        text-align: center;
+
+        h2 {
+            color: white;
+            width: 55%;
+            margin: 30px auto;
+            font-size: 2.3em;
+
+        }
+
+        p {
+            width: 65%;
+            color: white;
+            margin: 20px auto;
+            font-size: 1.3em;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0069ff;
+        }
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        ul {
+            list-style: none;
+            width: 50%;
+
+            li {
+                padding: 10px;
+                border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+            }
+
+            .code {
+                color: white;
+                font-weight: bold;
+                padding: 10px;
+            }
+
+            .place {
+                color: #5b6987;
+                margin: 40px;
+
+            }
+
+            a {
+                color: #00d7d2;
+                float: right;
+
+                &:hover {
+                    color: #0069ff;
+                }
+            }
+        }
+    }
+
+}

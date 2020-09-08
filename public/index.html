@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon"
+    href="data:image/png;base64,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" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet">
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -24,12 +25,13 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+  <title>DigitalOcean – The developer cloud</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -39,5 +41,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>

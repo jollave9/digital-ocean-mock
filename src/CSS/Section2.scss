@@ -1,0 +1,24 @@
+.Section2 {
+    background-color: #f3f5f9;
+    padding: 50px;
+
+    .business-logos {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    h5 {
+        text-align: center;
+        letter-spacing: 3px;
+        color: #5b6987;
+    }
+
+    a {
+        margin-top: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 3px;
+        display: block;
+        text-align: center;
+    }
+}

@@ -1,0 +1,73 @@
+.Section6 {
+  background: #031b4e url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+.Section6 .header {
+  text-align: center;
+}
+
+.Section6 .header h2 {
+  color: white;
+  width: 55%;
+  margin: 30px auto;
+  font-size: 2.3em;
+}
+
+.Section6 .header p {
+  width: 65%;
+  color: white;
+  margin: 20px auto;
+  font-size: 1.3em;
+}
+
+.Section6 .header a {
+  text-decoration: none;
+  color: #0069ff;
+}
+
+.Section6 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Section6 .content ul {
+  list-style: none;
+  width: 50%;
+}
+
+.Section6 .content ul li {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.Section6 .content ul .code {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.Section6 .content ul .place {
+  color: #5b6987;
+  margin: 40px;
+}
+
+.Section6 .content ul a {
+  color: #00d7d2;
+  float: right;
+}
+
+.Section6 .content ul a:hover {
+  color: #0069ff;
+}
+/*# sourceMappingURL=Section6.css.map */

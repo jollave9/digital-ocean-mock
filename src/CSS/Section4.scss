@@ -1,0 +1,54 @@
+.Section4 {
+    background-color: #f3f5f9;
+    padding: 50px;
+
+    .header {
+        text-align: center;
+        color: #031b4e;
+
+        .sub-header {
+            font-size: 1.3em;
+            letter-spacing: 3px;
+            width: 70%;
+            display: block;
+            margin: auto;
+        }
+    }
+
+    .image {
+        margin-top: 50px;
+        text-align: center;
+
+        img {
+            display: block;
+            width: 60%;
+            margin: auto;
+        }
+    }
+
+    .section-footer {
+        text-align: center;
+
+        p {
+            font-size: 1.1em;
+            color: #5b6987;
+            width: 50%;
+            display: block;
+            margin: 30px auto;
+        }
+
+        button {
+            border: 2px solid #006aff;
+            border-radius: 50%;
+            height: 20px;
+            width: 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .active {
+            background-color: #006aff;
+        }
+
+    }
+}

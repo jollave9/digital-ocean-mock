@@ -1,0 +1,93 @@
+.Section1 {
+    background-color: #0069ff;
+    background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+    background-repeat: repeat-y;
+    background-position: center bottom;
+    background-size: 100% 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .header {
+        width: 50%;
+        color: white;
+
+        .main-header {
+            font-size: 30px;
+            letter-spacing: 3px;
+        }
+
+        .sub-header {
+            font-size: 1.2em;
+            line-height: 1.5;
+            letter-spacing: 3px;
+        }
+    }
+
+    .form {
+        background-color: white;
+        border-radius: 5px;
+        width: 380px;
+
+        h5 {
+            color: #031b4e;
+            border-radius: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+            background-color: #f3f5f9;
+            text-align: center;
+            margin: 0;
+            padding: 32px;
+        }
+
+        form {
+            width: 90%;
+            padding: 20px;
+            margin: auto;
+        }
+
+        input {
+            font-size: 16px;
+            box-sizing: border-box;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 16px;
+            border: 1px solid #e5e8ed;
+        }
+
+        input[type=button] {
+            background-color: #0069ff;
+            color: white;
+            font-weight: bold;
+
+        }
+
+        .form-footer {
+            padding: 32px;
+            display: flex;
+            justify-content: space-around;
+
+            .signup-with-google-btn {
+                background-color: white;
+                color: #006aff;
+                font-size: 1em;
+                font-weight: bold;
+                height: 48px;
+                padding: 13px 30px 16px 30px;
+                margin: 0;
+                border: 1px solid #006aff;
+                border-radius: 5px;
+
+                &:hover {
+                    color: #031b4e;
+                    cursor: pointer;
+                }
+            }
+
+            .github-btn {
+                padding: 16px;
+            }
+        }
+    }
+}

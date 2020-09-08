@@ -1,0 +1,103 @@
+.Section1 {
+  background-color: #0069ff;
+  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-repeat: repeat-y;
+  background-position: center bottom;
+  background-size: 100% 60%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Section1 .header {
+  width: 50%;
+  color: white;
+}
+
+.Section1 .header .main-header {
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.Section1 .header .sub-header {
+  font-size: 1.2em;
+  line-height: 1.5;
+  letter-spacing: 3px;
+}
+
+.Section1 .form {
+  background-color: white;
+  border-radius: 5px;
+  width: 380px;
+}
+
+.Section1 .form h5 {
+  color: #031b4e;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #f3f5f9;
+  text-align: center;
+  margin: 0;
+  padding: 32px;
+}
+
+.Section1 .form form {
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+}
+
+.Section1 .form input {
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 16px;
+  border: 1px solid #e5e8ed;
+}
+
+.Section1 .form input[type=button] {
+  background-color: #0069ff;
+  color: white;
+  font-weight: bold;
+}
+
+.Section1 .form .form-footer {
+  padding: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Section1 .form .form-footer .signup-with-google-btn {
+  background-color: white;
+  color: #006aff;
+  font-size: 1em;
+  font-weight: bold;
+  height: 48px;
+  padding: 13px 30px 16px 30px;
+  margin: 0;
+  border: 1px solid #006aff;
+  border-radius: 5px;
+}
+
+.Section1 .form .form-footer .signup-with-google-btn:hover {
+  color: #031b4e;
+  cursor: pointer;
+}
+
+.Section1 .form .form-footer .github-btn {
+  padding: 16px;
+}
+/*# sourceMappingURL=Section1.css.map */

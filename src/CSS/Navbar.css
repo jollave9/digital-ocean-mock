@@ -1,0 +1,96 @@
+body {
+  font-family: 'Syne', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 65px;
+  position: fixed;
+  z-index: 30;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar .navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar a {
+  color: #031b4e;
+  text-decoration: none;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar a:hover {
+  color: #006aff;
+}
+
+.navbar .navbar-buttons {
+  -webkit-box-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+.navbar .navbar-buttons .signin-btn {
+  background-color: white;
+  float: right;
+  margin: 10px;
+  border: 1px solid #006aff;
+  border-radius: 5px;
+}
+
+.navbar .navbar-buttons .signin-btn a {
+  color: #006aff;
+  padding: 8px 10px;
+}
+
+.navbar .navbar-buttons .signin-btn:hover {
+  background-color: #006aff;
+}
+
+.navbar .navbar-buttons .signin-btn:hover a {
+  color: white;
+}
+
+.navbar .navbar-buttons .signup-btn {
+  background-color: #006aff;
+  float: right;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  margin-right: 10px;
+}
+
+.navbar .navbar-buttons .signup-btn a {
+  color: white;
+  padding: 8px 10px;
+}
+
+.img-logo {
+  width: 172px;
+  height: 29px;
+  max-height: 29px;
+  padding: 10px 30px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=Navbar.css.map */

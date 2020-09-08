@@ -1,0 +1,35 @@
+.Section5 {
+  padding: 50px;
+}
+
+.Section5 h1 {
+  text-align: center;
+  margin: 50px 0;
+  color: #031b4e;
+  font-size: 2.5em;
+}
+
+.Section5 .content {
+  width: 90%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+  letter-spacing: 2px;
+}
+
+.Section5 .content h5 {
+  font-size: 1.2em;
+  color: #031b4e;
+}
+
+.Section5 .content p {
+  color: #5b6987;
+}
+
+.Section5 .content a {
+  font-weight: bold;
+}
+/*# sourceMappingURL=Section5.css.map */

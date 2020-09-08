@@ -1,0 +1,33 @@
+.Section5 {
+    padding: 50px;
+
+    h1 {
+        text-align: center;
+        margin: 50px 0;
+        color: #031b4e;
+        font-size: 2.5em;
+    }
+
+    .content {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 50px;
+        letter-spacing: 2px;
+
+        h5 {
+            font-size: 1.2em;
+            color: #031b4e;
+
+        }
+
+        p {
+            color: #5b6987;
+        }
+
+        a {
+            font-weight: bold;
+        }
+    }
+}
